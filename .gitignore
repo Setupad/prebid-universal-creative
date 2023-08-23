@@ -2,4 +2,7 @@
 node_modules/
 build
 coverage
-dist/
+dist/*
+
+# Allow dist/banner.js
+!dist/banner.js
